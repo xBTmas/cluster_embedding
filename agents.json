@@ -1,0 +1,182 @@
+[
+  {
+    "name": "ESG Agent",
+    "description": "Helps with providing actionable strategies to improve ESG performance",
+    "url": "http://localhost:8000/",
+    "version": "1.0.0",
+    "defaultInputModes": ["text/plain"],
+    "defaultOutputModes": ["text/plain"],
+    "capabilities": ["recommendations", "analysis"],
+    "skills": [
+      {
+        "id": "ESG Improvisor",
+        "name": "ESG Improvement Advisor",
+        "description": "Helps with providing actionable strategies to improve ESG performance",
+        "tags": ["ESG Improvement"],
+        "examples": ["Based on the ESG risk report, what are the top three recommendations for improvement?"]
+      }
+    ]
+  },
+  {
+    "name": "Risk Profiler Agent",
+    "description": "Analyzes business operations and generates risk profiles based on industry and geography.",
+    "url": "http://localhost:8001/",
+    "version": "1.0.0",
+    "defaultInputModes": ["text/plain"],
+    "defaultOutputModes": ["application/json"],
+    "capabilities": ["risk_assessment", "data_analysis"],
+    "skills": [
+      {
+        "id": "RiskProfiler",
+        "name": "Risk Analysis Advisor",
+        "description": "Generates a detailed risk profile from given operational data.",
+        "tags": ["Risk Management", "Business Intelligence"],
+        "examples": ["Generate a risk profile for a manufacturing company in Southeast Asia."]
+      }
+    ]
+  },
+  {
+    "name": "Carbon Footprint Tracker",
+    "description": "Estimates and tracks carbon footprint for organizations or supply chains.",
+    "url": "http://localhost:8002/",
+    "version": "1.0.0",
+    "defaultInputModes": ["application/json"],
+    "defaultOutputModes": ["text/plain"],
+    "capabilities": ["carbon_estimation", "tracking"],
+    "skills": [
+      {
+        "id": "CarbonEstimator",
+        "name": "Carbon Footprint Calculator",
+        "description": "Calculates estimated CO2 emissions based on provided activity data.",
+        "tags": ["Sustainability", "Climate Action"],
+        "examples": ["Calculate carbon footprint from energy usage data of the past quarter."]
+      }
+    ]
+  },
+  {
+    "name": "Supply Chain Auditor",
+    "description": "Performs audits of suppliers and supply chain partners for compliance for esg.",
+    "url": "http://localhost:8003/",
+    "version": "1.0.0",
+    "defaultInputModes": ["application/json"],
+    "defaultOutputModes": ["application/json"],
+    "capabilities": ["audit", "compliance_check"],
+    "skills": [
+      {
+        "id": "SupplyAudit",
+        "name": "Supplier Compliance Auditor",
+        "description": "Checks supplier data against compliance standards.",
+        "tags": ["Supply Chain", "Compliance"],
+        "examples": ["Audit supplier X for compliance with ISO 14001."]
+      }
+    ]
+  },
+  {
+    "name": "Financial Advisor Bot",
+    "description": "Provides financial planning strategies and investment suggestions.",
+    "url": "http://localhost:8004/",
+    "version": "1.0.0",
+    "defaultInputModes": ["text/plain"],
+    "defaultOutputModes": ["text/plain"],
+    "capabilities": ["financial_advice", "investment_planning"],
+    "skills": [
+      {
+        "id": "FinancePlanner",
+        "name": "Investment Strategy Advisor",
+        "description": "Suggests investment portfolios based on risk appetite and goals.",
+        "tags": ["Finance", "Wealth Management"],
+        "examples": ["Suggest a low-risk investment strategy for a 5-year horizon."]
+      }
+    ]
+  },
+  {
+    "name": "AI Research Summarizer",
+    "description": "Summarizes AI research papers and extracts key findings.",
+    "url": "http://localhost:8005/",
+    "version": "1.0.0",
+    "defaultInputModes": ["text/plain"],
+    "defaultOutputModes": ["text/plain"],
+    "capabilities": ["summarization", "nlp"],
+    "skills": [
+      {
+        "id": "AISummarizer",
+        "name": "AI Paper Summarizer",
+        "description": "Summarizes research papers into concise points.",
+        "tags": ["AI", "Research"],
+        "examples": ["Summarize the paper 'Attention is All You Need' in under 200 words."]
+      }
+    ]
+  },
+  {
+    "name": "ESG Compliance Checker",
+    "description": "Checks if given operations meet ESG compliance standards.",
+    "url": "http://localhost:8006/",
+    "version": "1.0.0",
+    "defaultInputModes": ["application/json"],
+    "defaultOutputModes": ["application/json"],
+    "capabilities": ["compliance", "verification"],
+    "skills": [
+      {
+        "id": "ESGCompliance",
+        "name": "ESG Compliance Validator",
+        "description": "Validates compliance with ESG benchmarks.",
+        "tags": ["ESG", "Compliance"],
+        "examples": ["Check ESG compliance for supplier data provided."]
+      }
+    ]
+  },
+  {
+    "name": "Language Translation Agent",
+    "description": "Translates between multiple languages with context preservation.",
+    "url": "http://localhost:8007/",
+    "version": "1.0.0",
+    "defaultInputModes": ["text/plain"],
+    "defaultOutputModes": ["text/plain"],
+    "capabilities": ["translation", "localization"],
+    "skills": [
+      {
+        "id": "LangTranslate",
+        "name": "Contextual Translator",
+        "description": "Provides accurate translations preserving original tone and meaning.",
+        "tags": ["Language", "Translation"],
+        "examples": ["Translate this ESG compliance report into Japanese."]
+      }
+    ]
+  },
+  {
+    "name": "Market Trends Analyzer",
+    "description": "Analyzes and predicts market trends based on historical data.",
+    "url": "http://localhost:8008/",
+    "version": "1.0.0",
+    "defaultInputModes": ["application/json"],
+    "defaultOutputModes": ["application/json"],
+    "capabilities": ["trend_analysis", "forecasting"],
+    "skills": [
+      {
+        "id": "MarketAnalyzer",
+        "name": "Market Trend Predictor",
+        "description": "Uses historical data to forecast upcoming market changes.",
+        "tags": ["Finance", "Data Analysis"],
+        "examples": ["Predict the next quarter's trend for renewable energy stocks."]
+      }
+    ]
+  },
+  {
+    "name": "Incident Report Generator",
+    "description": "Generates structured reports for incidents in ESG or compliance.",
+    "url": "http://localhost:8009/",
+    "version": "1.0.0",
+    "defaultInputModes": ["application/json"],
+    "defaultOutputModes": ["text/plain"],
+    "capabilities": ["report_generation", "documentation"],
+    "skills": [
+      {
+        "id": "IncidentReporter",
+        "name": "Incident Report Writer",
+        "description": "Generates detailed incident reports from raw event data.",
+        "tags": ["Compliance", "Documentation"],
+        "examples": ["Generate an incident report for a supply chain disruption due to flooding."]
+      }
+    ]
+  }
+]
